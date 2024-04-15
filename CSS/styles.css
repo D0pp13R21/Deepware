@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* 
+Colors -
+Matte black : #28282B
+Off white : #FAF9F6
+Navy blue : #000080
+Mustard Yellow : #FFDB58
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28282B;
+    margin: 0;
+    font-family: "Platypi", serif;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    background-color: #28282B;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.logo {
+    flex: 20%;
+    border: 1px solid red;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: "Libre Baskerville", serif;
+    color: #FAF9F6;
+    font-size: 34px;
+}
+
+.menu {
+    flex: 70%;
+    border: 1px solid red;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: #FAF9F6;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: #FFDB58;
+    border-top: 4px solid #FFDB58;
+}
+
+#botao {
+    background: #FAF9F6;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #28282B;
+    margin-right: 10%;
+    margin-left: 5%;
+}
