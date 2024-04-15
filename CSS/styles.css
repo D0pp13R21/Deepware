@@ -25,12 +25,10 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 .logo {
     flex: 20%;
-    border: 1px solid red;
     text-align: center;
     margin-left: 10%;
 }
@@ -43,7 +41,6 @@ body {
 
 .menu {
     flex: 70%;
-    border: 1px solid red;
     text-align: right;
     padding: 20px;
 }
@@ -67,4 +64,9 @@ body {
     color: #28282B;
     margin-right: 10%;
     margin-left: 5%;
+}
+
+#botao:hover {
+    border: none;
+    background: #FFDB58;
 }
