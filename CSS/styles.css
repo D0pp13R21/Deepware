@@ -8,6 +8,12 @@ Navy blue : #000080
 Mustard Yellow : #FFDB58
 */
 
+@media only screen and (max-width: 1440px) {
+    #DI {
+        display: none;
+    }
+}
+
 * {
     box-sizing: border-box;
 }
@@ -29,7 +35,7 @@ body {
 
 .logo {
     flex: 20%;
-    text-align: center;
+    text-align: left;
     margin-left: 10%;
 }
 
@@ -69,4 +75,50 @@ body {
 #botao:hover {
     border: none;
     background: #FFDB58;
+}
+
+.header {
+    margin-top: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+.headline p {
+    color: #FAF9F6;
+    text-align: left;
+}
+
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #FAF9F6;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-btn {
+    display: inline-block;
+    background: #FFDB58;
+    padding: 20px;
+    color: #28282B;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background: #FAF9F6;
+}
+
+.img-headline {
+    flex: 40%;
+    margin-right: 10%;
+    text-align: center;
 }
