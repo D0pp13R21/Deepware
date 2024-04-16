@@ -122,3 +122,74 @@ body {
     margin-right: 10%;
     text-align: center;
 }
+
+section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 400px;
+    padding: 5%;
+    text-align: center;
+    width: 90%;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-weight: bold;
+    color:#FAF9F6;
+}
+
+.argumentos {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FFDB58;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card h3{
+    color: #FFDB58;
+}
+
+.card p {
+    color: #FAF9F6;
+}
+
+.card:hover {
+    background: #FFDB58;
+    /* padding: 40px; */
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover p{
+    color: #28282B;
+}
+
+.card:hover h3{
+    color: #28282B;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
